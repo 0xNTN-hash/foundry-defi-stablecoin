@@ -9,7 +9,7 @@ interface IDSCEngine {
 
     function redeemCollateralForDsc(address tokenCollateralAddress, uint256 amountCollateral, uint256 amountDscToBurn) external;
 
-    function redeemCollatera(address tokenCollateralAddress, uint256 amountCollateral) external;
+    function redeemCollateral(address tokenCollateralAddress, uint256 amountCollateral) external;
 
     function burnDsc(uint256 amountDsc) external;
 

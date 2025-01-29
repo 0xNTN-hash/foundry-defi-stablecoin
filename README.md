@@ -7,3 +7,8 @@
     - People can only mint the stablecoin with enougt collateral (coded)
 3. **Collatera:** Exogenous (Crypto)
     - wETH & wBTC
+
+## Bugs found during testing
+
+1. O devision if no DSC minted
+2. Crash if the user tries to redeem more collateral than the deposited collateral
